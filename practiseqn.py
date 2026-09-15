@@ -117,13 +117,77 @@
 
 # wap to count the numebr of "A" grade in the following tuple
 
-grade = ("c","d","a","a","d","b")
-print(grade.count("a"))
+# grade = ("c","d","a","a","d","b")
+# print(grade.count("a"))
 
 # wap to store the avove value in list and sort them a ->d
 
-ligrade = []
-ligrade.append(grade)
-ligrade.sort()
-print(ligrade)
-print(type(ligrade))
+# ligrade = []
+# ligrade.append(grade)
+# ligrade.sort()
+# print(ligrade)
+# print(type(ligrade))
+
+
+
+
+
+# (1) store following word meaning in a python dictionary
+# table="a peice of furniture" , "list of facts and figure "
+# cat = " a small animal"
+
+# dic ={
+#     "table":["a peice of furniture , list of facts and fugure"],
+    
+#     "cat":"a small animal"
+# }
+
+# print(dic)
+# print(type(dic["table"]))
+
+
+# (2) you  are given a list of subjects, assume 1 classroom for 1 subjects then how manu
+#classerroom are needed by all students
+
+# "python","java","c++","python","javascript"
+# "java","python","java","c++","c"
+
+# subjects = { "python","java","c++","python","javascript" ,
+#             "java","python","java","c++","c"
+#               }
+
+# print(len(subjects))
+# print("so total calssroom rrquired is :",len(subjects))
+
+
+#(3) wap to enter marks of 3 subject from user and add them in a dictionary.starts with and empty dic later fill one by one , use sub name = key and marks = value
+
+
+# mark1 = int(input("enter the physics : "))
+# mark2 = int(input("enter the chemistry: "))
+# mark3 = int(input("enter the math : "))
+
+# student = { }
+
+# student.update({"physics":mark1})
+# student.update({"chemistry":mark2})
+# student.update({"math":mark3})
+
+# print(student)
+# print(type(student))
+# print(student["chemistry"])
+
+
+
+#(4) find a way to store 9 and 9.0 as a sepearate value( you can use built in datatypes)
+
+# set ={9,9.0}  # print {9}
+# set2 ={9.0 , "9.0"} 
+
+# value = {
+#     ("float",9.0),
+#     ("int",9)
+# }
+
+# print(set2)
+# print(value)

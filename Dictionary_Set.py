@@ -56,3 +56,60 @@
 # student.update(new_dis)
 # ---
 # print(student)
+
+
+
+
+
+
+#sets in python-----------------------------------------------
+#set in pythin is the collection if the unordered itams
+#sets in python store only value and        (set=mutuable  &&& element of set = immutable)
+
+# set = { 1 ,2,3,3,3,2,"hello","world","hello","Hello"}  
+
+# print(set)   # unorderly print the set and print only once a value
+# print(type(set))
+# print(len(set))   #also ignore the duplicate value and count once
+
+# null_set = { }   # this is empty disctionary
+# emp_set = set( )    # this is empty set
+# print(type(emp_set))
+
+
+#     ------ methods of set
+
+collection = set()
+
+collection.add(1)    # add an elements 
+collection.add(2)
+collection.add(2)
+collection.add(3)
+collection.add(4)
+collection.add("sasin")
+collection.add((99,88,77))
+# collection.add([99,88,77])   #  cant add list
+
+print(collection)
+
+collection.remove(4)  # remove any element 
+print(collection)
+
+collection.pop()  # removes any random value
+print(collection)
+
+collection.clear()  # empities the set
+print(collection)
+print(len(collection))
+
+
+set1 = { 6 ,7 ,8 }
+set2 = {8,9,10}
+
+print(set1)
+print(type(set1))
+print(set1.union(set2))
+
+
+print(set2)
+print(set1.intersection(set2))
