@@ -191,3 +191,140 @@
 
 # print(set2)
 # print(value)
+
+
+
+
+#   loopsss in pythonnn------------------
+#usinf while loop
+
+# 1) print numbers from 1 to 100
+
+# i=1
+# while i<=100:
+#     print(i)
+#     i+=1
+
+
+#2) print numbers from 100 to 1
+ 
+# i=100
+# while i>=1:
+#     print(i)
+#     i-=1
+
+#3)print the multiplication number of n 
+
+# num = int(input("enter any number :"))
+# i=1
+# while i<=10:
+#     print(num ,"*" , i , "=" , num*i)
+#     i+=1
+
+
+#4)print the elements of the list using the loops
+# [1,4,9,16,15,67,78,89,677,100]
+
+# nums = [1,4,9,16,15,67,78,89,677,100]
+# heores = ["thor","ironman","superman","batman"]
+
+# ix = 0
+# while ix<len(heores):
+#     print(heores[ix])
+#     ix+=1
+
+# idx = 0
+# while idx < len(nums):
+#     print(nums[idx])
+#     idx+=1
+
+
+#5) search for the number x in the given tuple
+
+# nums = [1,4,9,16,15,67,78,89,677,100]
+# x = 1995
+
+# i = 0
+# while i<len(nums):
+#     if(nums[i] == x):
+#         print("found at index",i)
+
+#     i+=1
+
+
+#6) print the elements of the loop using for loop
+
+# list = [1,2,4,6,44,22,333,332,112,2,2,3,3,7]
+# for el in list:
+#     print(el)
+
+
+#7) search the elements x  from the tuple using for loop
+
+# tup = [1,2,4,6,44,22,333,332,112,2,2,3,3,7]
+# x = 2
+# idx = 0
+# for el in tup:
+#     if(el==x):
+#         print(" found on the index",idx)      
+#     idx+=1
+
+
+
+#using for and range
+
+#8) print multiplication table of n 
+
+# num = int(input("enter any number :"))
+# for i in range(1,11):
+#     print(num ,"*", i,"=",num*i)
+
+
+#9) print from 100 to 1 
+# for el in range(100,1,-1):
+#     print(el)    
+
+
+
+
+# wap to print sum first n numbers using while and for loop
+
+# n = int(input("enter the number"))
+# i=0
+# sum = 0
+# while i<=n:
+#     sum+=i
+#     i+=1
+    
+# print("sum is",sum)
+
+# num = int(input("enter any number :"))
+# add=0
+# for i in range(n+1):
+#     add+=i
+#     i+=1
+# print("sum is ",add)
+
+
+
+
+# wap to print factorial of given   numbers using while and for loop
+
+# n = int(input("enter number for factorial :"))
+# fact = 1
+# for i in range(1,n+1):
+#     fact *= i
+#     i+=1
+# print("factorial of",n , "is", fact)
+
+
+# num = int(input("enter number for fact :"))
+# facto = 1
+# i=1
+# while i<=n:
+#     facto = facto * i
+#     i+=1
+# print("factorial of number is ",facto)    
+
+    
+    
