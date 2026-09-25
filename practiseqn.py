@@ -328,3 +328,57 @@
 
     
     
+# ---- from function -----
+
+#1) wap to print the lenght of list (list is parameter)
+
+# def calc_len(list):
+#     print(len(list))
+
+# list = [1,2,3,4,5,6,7,8,9,9,9,9]
+# calc_len(list)
+
+
+#2)wap to print the elementsof a list in a single line(list is a parameter)
+
+# def calc_len(list):
+#     for items in list:
+#         print(items, end=" ")
+
+# list = ["thor","sasin","lalala"]
+# calc_len(list)
+
+
+#3) wap to print the factorail of n ( n is the parameter)
+
+# def calc_fact(num):
+#     fact = 1
+#     for i in range(1,num+1):
+#         fact *= i
+#     print("factorial of",num , "is", fact)
+# calc_fact(4)
+
+
+#4) wap to convert the usd to npr
+
+# def  usd_to_npr(usd):
+#     npr = usd * 132.5
+#     return npr
+# usd = float(input("enter the usd :"))
+# print("the npr is :",usd_to_npr(usd))
+
+
+#4) wap to convert to check prime or composote in function ( n is paramter)
+
+def PrimeChecker(num):
+ count = 0
+ for i in range(1,num+1):
+  if(num % i ==0):
+   count +=1
+ if (count==2):
+  print("number is prime")
+ else:
+  print("number is compposite")
+
+n = int(input("enter num to check"))
+PrimeChecker(n)
