@@ -32,6 +32,8 @@
 
 class Student:
 
+    collage_name = "abc collage" # class attribut(for all)
+
     # default constructor
     def __init__(self):
         pass
@@ -39,7 +41,7 @@ class Student:
 
      #parameterized constructor       
     def __init__(self,name,marks):
-        self.name= name
+        self.name= name    # obj attribute > class attr
         self.marks = marks
        
 
@@ -48,4 +50,6 @@ print(s1.name,s1.marks)
 
 s2 = Student("krishna",34)
 print(s2.name,s2.marks)
+
+print(s2.collage_name)
 
