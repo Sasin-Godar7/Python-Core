@@ -82,3 +82,21 @@
 # tupp=(2,)
 # print(type(tupp))
 # print(tupp)
+
+
+
+
+def add_sub(a,b):
+    a_result = a+b
+    s_result = a-b
+    m_result = a * b
+
+    return a_result, s_result, m_result
+
+
+result = add_sub(5,6)
+
+print(result) # this will print inside a tuple 
+
+a, s, m = result   # encoding from tuple 
+print(a,s,m)
