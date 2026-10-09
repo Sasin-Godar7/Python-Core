@@ -19,13 +19,25 @@ class User:
              print("succesfully saved !! ")
 
     @staticmethod
-    def check_password(password):
+    def check_password(password,name):
         if len(password)<8:
                 raise Exception("password must me more the 8 character")  
 
-        has_special_char = ""
+        has_special_char = any(not char.isalnum() for char in password)
+
+        if password.isalnum() or password.digit() or not has_special_char:
+            raise Exception("password must be in alphanumerix + special character")
+
+        if name.lower() or password.lower():
+             raise Exception("password mustnot be personal info")
+
+        return True
 
 
 User1 =  User("Sasin Godar","sassu@123","sasin@gmail.com")
 
-User.show_info(User1)       
+User.show_info(User1)   
+# print(dir(User1))
+
+
+User1.save()

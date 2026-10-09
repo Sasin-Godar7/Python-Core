@@ -20,7 +20,14 @@
 
  # -- init() function--
 # all classes have __intit__() which is always executed when the object is initiated
-# 
+
+
+#  def __str__(self):     # __str__ le kunai class ko object lai string ma dkehauna pare
+#    pass
+
+
+
+
 # # creating class 
 
 # class Student:
@@ -30,38 +37,38 @@
 
 # s1 = Student()
 
-class Student:
+# class Student:
 
-    collage_name = "abc collage" # class attribut(for all)
+#     collage_name = "abc collage" # class attribut(for all)
 
-    # default constructor
-    def __init__(self):     #self is also a instance attribute
-        pass
+#     # default constructor
+#     def __init__(self):     #self is also a instance attribute
+#         pass
 
 
-     #parameterized constructor       
-    def __init__(self,name,marks):
-        self.name= name    # obj attribute > class attr
-        self.marks = marks
+#      #parameterized constructor       
+#     def __init__(self,name,marks):
+#         self.name= name    # obj attribute > class attr
+#         self.marks = marks
 
-    def welcome(self):
-        print("welcome students", self.name)   
+#     def welcome(self):
+#         print("welcome students", self.name)   
 
-    def get_marks(self):
-        return self.marks
+#     def get_marks(self):
+#         return self.marks
     
-s1 = Student("sasin",99)
-print(s1.name,s1.marks)
+# s1 = Student("sasin",99)
+# print(s1.name,s1.marks)
 
-s2 = Student("krishna",34)
-print(s2.name,s2.marks)
+# s2 = Student("krishna",34)
+# print(s2.name,s2.marks)
 
-print(s2.collage_name)
+# print(s2.collage_name)
 
-s1.welcome()
+# s1.welcome()
 
-print(s1.get_marks())
-print(s2.get_marks())
+# print(s1.get_marks())
+# print(s2.get_marks())
 
 
 
